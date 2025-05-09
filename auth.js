@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
         alert('✅ Sign-up successful! Redirecting to login…');
         signupForm.reset();
-        window.location.href = 'index.html'; // adjust if your login page path is different
+        window.location.href = 'index.html'; 
       });
     }
   
@@ -128,9 +128,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
         // — on success —
         localStorage.setItem('currentUser', JSON.stringify(user));
-        alert(`Welcome back, ${user.name}!`);
         loginForm.reset();
-        // window.location.href = 'dashboard.html'; // uncomment/adjust as needed
+        window.location.href = 'fixtures.html'; // redirect to the dashboard or main page
       });
     }
   });
