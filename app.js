@@ -1,6 +1,3 @@
-// app.js
-
-// ——— Helper Functions ———
 function showError(input, message) {
     let err = input.parentElement.querySelector('.error-message');
     if (!err) {

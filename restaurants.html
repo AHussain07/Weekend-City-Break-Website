@@ -1,0 +1,157 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurants Near Me</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <nav class="nav-container">
+        <h1>LEICESTER'S THE PLACE</h1>
+        <div class="nav-menu">
+          <a href="#" class="nav-item">Tourist attractions</a>
+          <a href="fixtures.html" class="nav-item">Sporting events</a>
+          <a href="restaurants.html" class="nav-item">Restaurants near me</a>
+          <a href="calendar.html" class="nav-item">My events</a>
+          <a href="#" class="nav-item">Saved locations</a>
+          <a href="index.html" class="nav-item">Sign out</a>
+        </div>
+      </nav>
+
+    <div class="filter-container">
+        <div class="filter-options">
+            <div class="filter-group">
+                <label for="location" class="filter-label">Location</label>
+                <input type="text" id="location" class="filter-input" placeholder="Enter your location">
+            </div>
+            <div class="filter-group">
+                <label for="distance" class="filter-label">Distance</label>
+                <select id="distance" class="filter-select">
+                    <option value="any">Any</option>
+                    <option value="1">> 1 mile</option>
+                    <option value="2">> 2 miles</option>
+                    <option value="5">> 5 miles</option>
+                    <option value="10">> 10 miles</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="cuisine" class="filter-label">Cuisine type</label>
+                <select id="cuisine" class="filter-select">
+                    <option value="any">Any</option>
+                    <option value="american">American</option>
+                    <option value="chinese">Chinese</option>
+                    <option value="indian">Indian</option>
+                    <option value="italian">Italian</option>
+                    <option value="japanese">Japanese</option>
+                    <option value="mexican">Mexican</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class="restaurant-grid">
+    <!-- Restaurant Card 1 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/kayal.jpg" alt="Kayal Restaurant" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Kayal</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">Indian</span>
+                <span class="restaurant-distance">LE1 6FE</span>
+            </div>
+            <a href="https://order.kayalrestaurant.com/leicester/" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Restaurant Card 2 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/herb.jpg" alt="Herb Restaurant" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Herb</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">Indian</span>
+                <span class="restaurant-distance">LE1 1DJ</span>
+            </div>
+            <a href="https://online.herbrestaurant.co.uk/leicester/" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Restaurant Card 3 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/casa-romana.jpg" alt="Casa Romana" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Casa Romana</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">Italian</span>
+                <span class="restaurant-distance">LE1 6GD</span>
+            </div>
+            <a href="https://www.casaromana.co.uk/menus/" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Restaurant Card 4 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/Bistrot Pierre.jpg" alt="Bistrot Pierre" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Bistrot Pierre</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">French</span>
+                <span class="restaurant-distance">LE1 5JN</span>
+            </div>
+            <a href="https://www.bistrotpierre.co.uk/menus/" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Restaurant Card 5 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/barceloneta.jpg" alt="Barceloneta" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Barceloneta</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">Spanish</span>
+                <span class="restaurant-distance">LE2 1TU</span>
+            </div>
+            <a href="https://barcelonetarestaurant.co.uk/" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- Restaurant Card 6 -->
+    <div class="restaurant-card">
+        <div class="restaurant-image">
+            <img src="./assets/Bobby's Restaurant.jpg" alt="Bobby's Restaurant" width="500" height="200">
+        </div>
+        <div class="restaurant-info">
+            <h3 class="restaurant-name">Bobby's Restaurant</h3>
+            <div class="restaurant-details">
+                <span class="restaurant-cuisine">Indian</span>
+                <span class="restaurant-distance">LE4 5AT</span>
+            </div>
+            <a href="https://www.bobbys-restaurant.co.uk/menu" target="_blank">
+                <button class="view-menu-btn">VIEW MENU</button>
+            </a>
+        </div>
+    </div>
+</div>
+<script src="restaurants.js"></script>
+</body>
+</html>
